@@ -13,7 +13,7 @@ pragma solidity >=0.6.0 <0.9.0;
 
 /// @title ILiquityTroveManager Interface
 /// @author Enzyme Council <security@enzyme.finance>
-/// @notice Minimal interface for our interactions with Liquity Trove Mangager contract
+/// @notice Minimal interface for our interactions with Liquidity Trove Manager contract
 interface ILiquityTroveManager {
     function getTroveColl(address) external view returns (uint256);
 

@@ -382,7 +382,7 @@ abstract contract AliceTestBase is IntegrationTest {
         assertEq(
             preOrderVaultOutgoingAssetBalance - postOrderVaultOutgoingAssetBalance,
             orderQuantity,
-            "Incorrect vaultProxy blance"
+            "Incorrect vaultProxy balance"
         );
 
         // The EP should report the placedOrder in getManagedAssets
